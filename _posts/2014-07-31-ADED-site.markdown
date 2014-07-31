@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Alldayeveryday.com"
+description: "Allday's website."
+date: 2014-07-31 13:58:10
+modified: 2014-07-31 13:58:10
+imagefeature: brooklyn-bridge.jpg
+comments: false
+share: true
+---
+
+<a href="//alldayeveryday.com"><img class="post-image" src="../../../../../images/ADED-site.png"/></a>
+Worked on the <a href="//alldayeveryday.com">Allday site's</a> back end developing methods for Mongo models. Wrote tests for these methods.
+
+Techs used:
+- Ruby on Rails
+- Mongoid
+- Rspec

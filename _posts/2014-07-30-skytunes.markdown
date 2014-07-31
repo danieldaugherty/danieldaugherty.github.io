@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Skytunes"
+description: "Unique, weather-inspired playlists."
+date: 2014-07-30 12:12:19
+modified: 2014-07-30 12:12:19
+imagefeature: clouds.jpg
+comments: false
+share: true
+---
+
+<a href="http://skytunesofficial.herokuapp.com"><img class="post-image" src="/images/skytunes.png"/>
+Skytunes</a> is a weather-based playist generator powered by SoundCloud. Just answer a few questions about the weather near you, and Skytunes will generate a unique playlist from the weather info and genre you specify.
+<br><br>
+This app was built with the following techs:
+- AngularJS
+- Twitter Bootstrap
+- HTML5/CSS3
+- Node/Express
+- SoundCloud SDK
+- Plangular
