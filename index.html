@@ -1,14 +1,14 @@
 ---
 layout: home
-title: Latest Posts
-description: "The personal blog of Hossain Mohd. Faysal, a doctoral candidate in Electrical Engineering at University of Pennsylvania."
-headline: An Engineer's Diary
-tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsylvania, doha, Qatar]
+title: Daniel Daugherty
+description: "Daniel Daugherty's online portfolio."
+headline: Portfolio
+tags: [Daniel, Daugherty]
 ---
 {% if site.paginate %}
 	{% for post in paginator.posts %}
-		{% assign ert = post.content | strip_html | number_of_words | divided_by:180 %}
-		{% assign ertremainder = post.content | strip_html | number_of_words | modulo:180 %}
+		{% assign ert = post.content | number_of_words | divided_by:180 %}
+		{% assign ertremainder = post.content | number_of_words | modulo:180 %}
 		{% if ertremainder >= 90 %}
 			{% assign readtime = ert | plus:1 %}
 		{% else %}
@@ -21,7 +21,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	            <article class="post col-md-10 col-md-offset-1">
 	            	<header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-quote-left"></i> {{ post.excerpt | strip_html }}</a>
+	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-quote-left"></i> {{ post.excerpt }}</a>
 	                    </h2>
 	                    <p class="light small text-center">
 	                        Share this Quote
@@ -66,7 +66,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	            <article class="post col-md-10 col-md-offset-1">
 	               <header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.excerpt | strip_html }}"</a>
+	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.excerpt }}"</a>
 	                    </h2>
 	                    <p class="light small text-center">
 	                        Share this Status
@@ -96,7 +96,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        in <span class="post-tags">{% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>&nbsp;<span class="post-tags">by {{ site.owner.name }}</span>
 	                        <div class="post-body bordered-bottom"></div>
 	                    </div>
-	                </header>    
+	                </header>
 	            </article>
 	        </div>
 	        {% endif %}
@@ -121,7 +121,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                {% if post.video %}
 	        		{% assign video_embed = post.video | remove:'https://www.youtube.com/watch?v=' %}
                     <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                    <p class="lead">{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+                    <p class="lead">{{ post.content | truncatewords:100 }}&hellip;</p>
                     {% else %}
 	                <p class="lead">{{ post.excerpt }}&hellip;</p>
 	                {% endif %}
@@ -159,7 +159,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </div>
 	                </header>
 	                <div class="post-body bordered-bottom">
-	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+	                    <p>{{ post.content | truncatewords:100 }}&hellip;</p>
 	                    <div class="text-center">
 	                    {% if post.description %}
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
@@ -195,8 +195,8 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                </header>
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
-	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}&hellip;</p>{% else %}
-	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>{% endif %}
+	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt }}&hellip;</p>{% else %}
+	                    <p>{{ post.content | truncatewords:100 }}&hellip;</p>{% endif %}
 	                    <div class="text-center">
 	                    {% if post.description %}
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
@@ -216,11 +216,11 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 {% assign post_count = site.posts | size %}
 {% if post_count == 0 %}
 {% else %}
-{% if paginator.total_pages != 1 %} 
+{% if paginator.total_pages != 1 %}
 {% if paginator.total_pages < 7 %}
         <div class="page-body col-md-12">
           <ul class="pagination pagination-centered">
-            {% if paginator.total_pages >= 10 %} 
+            {% if paginator.total_pages >= 10 %}
             {% if paginator.previous_page %}
                 <li>
                   <a href="{{ site.url }}/">&laquo;&laquo;</a>
@@ -275,7 +275,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                 <a>&raquo;</a>
               </li>
             {% endif %}
-            {% if paginator.total_pages >= 10 %} 
+            {% if paginator.total_pages >= 10 %}
             {% if paginator.next_page %}
               <li>
                 <a href="{{ site.url }}/page{{paginator.total_pages}}">&raquo;&raquo;</a>
@@ -304,10 +304,10 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 {% assign page_end = paginator.page | plus: 4 %}
 {% assign page_start = paginator.page %}
 {% endif %}
- 
+
 <div class="page-body col-md-12">
     <ul class="pagination pagination-centered">
-    {% if paginator.total_pages > 5 %} 
+    {% if paginator.total_pages > 5 %}
     {% if paginator.previous_page %}
         <li>
           <a href="{{ site.url }}/">&laquo;&laquo;</a>
@@ -366,7 +366,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
         <a>&raquo;</a>
       </li>
     {% endif %}
-    {% if paginator.total_pages > 5 %} 
+    {% if paginator.total_pages > 5 %}
     {% if paginator.next_page %}
       <li>
         <a href="{{ site.url }}/page{{paginator.total_pages}}">&raquo;&raquo;</a>
@@ -384,8 +384,8 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 {% endif %}
 {% else %}
 	{% for post in site.posts %}
-		{% assign ert = post.content | strip_html | number_of_words | divided_by:180 %}
-		{% assign ertremainder = post.content | strip_html | number_of_words | modulo:180 %}
+		{% assign ert = post.content | number_of_words | divided_by:180 %}
+		{% assign ertremainder = post.content | number_of_words | modulo:180 %}
 		{% if ertremainder >= 90 %}
 			{% assign readtime = ert | plus:1 %}
 		{% else %}
@@ -398,7 +398,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	            <article class="post col-md-10 col-md-offset-1">
 	            	<header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-quote-left"></i> {{ post.excerpt | strip_html }}</a>
+	                        <a href="{{ site.url }}{{ post.url }}"><i class="icon-quote-left"></i> {{ post.excerpt }}</a>
 	                    </h2>
 	                    <p class="light small text-center">
 	                        Share this Quote
@@ -443,7 +443,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	            <article class="post col-md-10 col-md-offset-1">
 	               <header class="post-header">
 	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.excerpt | strip_html }}"</a>
+	                        <a href="{{ site.url }}{{ post.url }}" style="color: #c91b26"><i class="icon-retweet"></i> "{{ post.excerpt }}"</a>
 	                    </h2>
 	                    <p class="light small text-center">
 	                        Share this Status
@@ -473,7 +473,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                        in <span class="post-tags">{% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>&nbsp;<span class="post-tags">by {{ site.owner.name }}</span>
 	                        <div class="post-body bordered-bottom"></div>
 	                    </div>
-	                </header>    
+	                </header>
 	            </article>
 	        </div>
 	        {% endif %}
@@ -498,7 +498,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                {% if post.video %}
 	        		{% assign video_embed = post.video | remove:'https://www.youtube.com/watch?v=' %}
                     <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                    <p class="lead">{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+                    <p class="lead">{{ post.content | truncatewords:100 }}&hellip;</p>
                     {% else %}
 	                <p class="lead">{{ post.excerpt }}&hellip;</p>
 	                {% endif %}
@@ -536,7 +536,7 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                    </div>
 	                </header>
 	                <div class="post-body bordered-bottom">
-	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>
+	                    <p>{{ post.content | truncatewords:100 }}&hellip;</p>
 	                    <div class="text-center">
 	                    {% if post.description %}
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
@@ -572,8 +572,8 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	                </header>
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
-	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt | strip_html }}&hellip;</p>{% else %}
-	                    <p>{{ post.content | strip_html | truncatewords:100 }}&hellip;</p>{% endif %}
+	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p class = "lead">{{ post.excerpt}}&hellip;</p>{% else %}
+	                    <p>{{ post.content | truncatewords:100 }}&hellip;</p>{% endif %}
 	                    <div class="text-center">
 	                    {% if post.description %}
 		                <a href="{{ site.url }}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link btn btn-danger btn-large">
@@ -589,5 +589,5 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
 	            </article>
 	        </div>
 			{% endif %}
-	{% endfor %}  
+	{% endfor %}
 {% endif %}
