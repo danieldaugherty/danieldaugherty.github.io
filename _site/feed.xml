@@ -2,51 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Daniel Daugherty</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2014-07-31T21:21:15-04:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="danieldaugherty.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="danieldaugherty.github.io" />
+<updated>2014-08-01T10:39:39-04:00</updated>
+<id>danieldaugherty.github.io/</id>
 <author>
   <name>Daniel Daugherty</name>
-  <uri>/</uri>
+  <uri>danieldaugherty.github.io/</uri>
   <email>daniel.shane.daugherty@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Alldayeveryday.com]]></title>
-  <link>/ADED-site</link>
-  <id>/ADED-site</id>
+  <link>danieldaugherty.github.io/ADED-site</link>
+  <id>danieldaugherty.github.io/ADED-site</id>
   <updated>2014-07-31 09:58:10 -0400T00:00:00-00:00</updated>
   <published>2014-07-31T09:58:10-04:00</published>
   
   <author>
     <name>Daniel Daugherty</name>
-    <uri></uri>
+    <uri>danieldaugherty.github.io</uri>
     <email>daniel.shane.daugherty@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;//alldayeveryday.com&quot;&gt;&lt;img class=&quot;post-image&quot; src=&quot;../../../../../images/ADED-site.png&quot; /&gt;&lt;/a&gt;
-Worked on the &lt;a href=&quot;//alldayeveryday.com&quot;&gt;Allday site’s&lt;/a&gt; back end developing methods for Mongo models. Wrote tests for these methods.&lt;/p&gt;
+Alldayeveryday is a creative agency in Alphabet City. Its website includes an art/fashion blog, a list of credentials and creative services, and even an online shop.&lt;/p&gt;
+
+&lt;p&gt;Worked on the &lt;a href=&quot;//alldayeveryday.com&quot;&gt;Allday site’s&lt;/a&gt; back end developing methods for Mongo models. Wrote tests for these methods.&lt;/p&gt;
 
 &lt;p&gt;Techs used:
 - Ruby on Rails
 - Mongoid
 - Rspec&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/ADED-site&quot;&gt;Alldayeveryday.com&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 31, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;danieldaugherty.github.io/ADED-site&quot;&gt;Alldayeveryday.com&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;danieldaugherty.github.io&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 31, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Alldayeveryday Tumblr]]></title>
-  <link>/ADED-tumblr</link>
-  <id>/ADED-tumblr</id>
+  <link>danieldaugherty.github.io/ADED-tumblr</link>
+  <id>danieldaugherty.github.io/ADED-tumblr</id>
   <updated>2014-07-31 09:02:10 -0400T00:00:00-00:00</updated>
   <published>2014-07-31T09:02:10-04:00</published>
   
   <author>
     <name>Daniel Daugherty</name>
-    <uri></uri>
+    <uri>danieldaugherty.github.io</uri>
     <email>daniel.shane.daugherty@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;//alldayeveryday.tumblr.com&quot;&gt;&lt;img class=&quot;post-image&quot; src=&quot;../../../../../images/ADED-tumblr.png&quot; /&gt;&lt;/a&gt;
@@ -56,20 +58,20 @@ Renovated the &lt;a href=&quot;//alldayeveryday.tumblr.com&quot;&gt;Alldayeveryd
 - Sass
 - HTML5/CSS3&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/ADED-tumblr&quot;&gt;Alldayeveryday Tumblr&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 31, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;danieldaugherty.github.io/ADED-tumblr&quot;&gt;Alldayeveryday Tumblr&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;danieldaugherty.github.io&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 31, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[MovieMatch]]></title>
-  <link>/moviematch</link>
-  <id>/moviematch</id>
+  <link>danieldaugherty.github.io/moviematch</link>
+  <id>danieldaugherty.github.io/moviematch</id>
   <updated>2014-07-31 08:20:10 -0400T00:00:00-00:00</updated>
   <published>2014-07-31T08:20:10-04:00</published>
   
   <author>
     <name>Daniel Daugherty</name>
-    <uri></uri>
+    <uri>danieldaugherty.github.io</uri>
     <email>daniel.shane.daugherty@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;//moviematch.herokuapp.com&quot;&gt; &lt;img class=&quot;post-image&quot; src=&quot;../../../../../images/moviematch.png&quot; /&gt;
@@ -85,20 +87,20 @@ MovieMatch&lt;/a&gt; is a movie-going suggestion app. Search in-theatre movies b
 - RottenTomatoes API
 - omdb API&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/moviematch&quot;&gt;MovieMatch&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 31, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;danieldaugherty.github.io/moviematch&quot;&gt;MovieMatch&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;danieldaugherty.github.io&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 31, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Skytunes]]></title>
-  <link>/skytunes</link>
-  <id>/skytunes</id>
+  <link>danieldaugherty.github.io/skytunes</link>
+  <id>danieldaugherty.github.io/skytunes</id>
   <updated>2014-07-30 08:12:19 -0400T00:00:00-00:00</updated>
   <published>2014-07-30T08:12:19-04:00</published>
   
   <author>
     <name>Daniel Daugherty</name>
-    <uri></uri>
+    <uri>danieldaugherty.github.io</uri>
     <email>daniel.shane.daugherty@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;&lt;a href=&quot;http://skytunesofficial.herokuapp.com&quot;&gt;&lt;img class=&quot;post-image&quot; src=&quot;/images/skytunes.png&quot; /&gt;
@@ -112,7 +114,7 @@ This app was built with the following techs:
 - SoundCloud SDK
 - Plangular&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/skytunes&quot;&gt;Skytunes&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 30, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;danieldaugherty.github.io/skytunes&quot;&gt;Skytunes&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;danieldaugherty.github.io&quot;&gt;Daniel Daugherty&lt;/a&gt; on July 30, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
