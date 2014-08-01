@@ -2,22 +2,22 @@ callback([
 
   {
     "text": "Skytunes",
-    "href": "danieldaugherty.github.io/skytunes"
+    "href": "/skytunes"
   } ,
 
   {
     "text": "MovieMatch",
-    "href": "danieldaugherty.github.io/moviematch"
+    "href": "/moviematch"
   } ,
 
   {
     "text": "Alldayeveryday Tumblr",
-    "href": "danieldaugherty.github.io/ADED-tumblr"
+    "href": "/ADED-tumblr"
   } ,
 
   {
     "text": "Alldayeveryday.com",
-    "href": "danieldaugherty.github.io/ADED-site"
+    "href": "/ADED-site"
   } 
 
 ])
