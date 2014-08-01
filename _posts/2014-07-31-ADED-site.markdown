@@ -10,6 +10,8 @@ share: true
 ---
 
 <a href="//alldayeveryday.com"><img class="post-image" src="../../../../../images/ADED-site.png"/></a>
+Alldayeveryday is a creative agency in Alphabet City. Its website includes an art/fashion blog, a list of credentials and creative services, and even an online shop.
+
 Worked on the <a href="//alldayeveryday.com">Allday site's</a> back end developing methods for Mongo models. Wrote tests for these methods.
 
 Techs used:
