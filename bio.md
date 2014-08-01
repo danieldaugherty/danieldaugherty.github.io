@@ -12,26 +12,26 @@ Fullstack Academy of Code
 BA Linguistics, Binghamton University
 
 Apps Built:
-- <a href="//skytunesofficial.herokuapp.com">Skytunes</a>
-- <a href="//moviematch.herokuapp.com">MovieMatch</a>
+<br>- <a href="//skytunesofficial.herokuapp.com">Skytunes</a>
+<br>- <a href="//moviematch.herokuapp.com">MovieMatch</a>
 
 Techs:
 
-Git
+Git<br>
 Heroku
 
 Front End
-- jQuery
-- AngularJS
-- HTML5/CSS3
-- HAML
-- Twitter Boostrap
-- Sass
-- Jekyll
+<br>- jQuery
+<br>- AngularJS
+<br>- HTML5/CSS3
+<br>- HAML
+<br>- Twitter Boostrap
+<br>- Sass
+<br>- Jekyll
 
 Back End
-- Node/Express
-- RoR
-- SQLite
-- MongoDB
-- Mongoid
+<br>- Node/Express
+<br>- RoR
+<br>- SQLite
+<br>- MongoDB
+<br>- Mongoid
