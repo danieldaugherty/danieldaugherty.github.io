@@ -25,6 +25,10 @@
 	border-radius: 50px;
 }
 
+a.brand img {
+	display: none;
+}
+
 
 /*!
  * HMFAYSAL OMEGA v1.0.0
@@ -3894,7 +3898,7 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content:"F"
+    content:"M"
     }
 
 a#slide.slide:after{
