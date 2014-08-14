@@ -18,6 +18,11 @@ callback([
   {
     "text": "Alldayeveryday.com",
     "href": "//danieldaugherty.github.io/ADED-site"
+  } ,
+
+  {
+    "text": "Trade-Away",
+    "href": "//danieldaugherty.github.io/trade-away"
   } 
 
 ])
