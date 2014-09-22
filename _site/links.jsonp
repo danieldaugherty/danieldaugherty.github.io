@@ -23,6 +23,11 @@ callback([
   {
     "text": "Trade-Away",
     "href": "//danieldaugherty.github.io/trade-away"
+  } ,
+
+  {
+    "text": "52 Tumblr",
+    "href": "//danieldaugherty.github.io/52-tumblr"
   } 
 
 ])

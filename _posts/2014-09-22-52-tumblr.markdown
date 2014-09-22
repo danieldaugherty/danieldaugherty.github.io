@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "52 Tumblr"
+date: 2014-09-22 13:02:10
+modified: 2014-09-22 13:02:10
+description: "Website for an ADED documentary made in partnership with Adrian Grenier."
+imagefeature: ADED-banner.jpg
+comments: false
+share: true
+---
+
+<a href="//52thesearch.com"><img class="post-image" src="/images/52-tumblr.png"/></a>
+
+52: The Mystery of the Loneliest Whale is a documentary Alldayeveryday co-produced. It follows the 52 Hz blue whale, relegated to solitude by his unusually-high-pitched song; inaudible to any other whale. Style points: Adrian Grenier is the spokesman for this documentary.
+
+I changed the <a href="//52thesearch.com">52 tumblr</a> banner background to a video with BigVideo.js, built a small api to service the live follow/like counts, and added a pop-up with social icons and counts. Optimized for cross-browser compatibility.
+
+Techs used:
+- BigVideo.js
+- jQuery
+- HTML/CSS
+- API
+- Node.js, ExpressJS
+- MongoDB
+- CORS
