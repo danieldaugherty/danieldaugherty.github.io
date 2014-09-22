@@ -4,7 +4,7 @@ title:  "52 Tumblr"
 date: 2014-09-22 13:02:10
 modified: 2014-09-22 13:02:10
 description: "Website for an ADED documentary made in partnership with Adrian Grenier."
-imagefeature: ADED-banner.jpg
+imagefeature: 52-banner.jpg
 comments: false
 share: true
 ---
