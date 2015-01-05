@@ -26,7 +26,7 @@ Front End
 <br>- AngularJS
 <br>- HTML5/CSS3
 <br>- HAML
-<br>- Twitter Boostrap
+<br>- Bootstrap
 <br>- Sass
 <br>- Jekyll
 
