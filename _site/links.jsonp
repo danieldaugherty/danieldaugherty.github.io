@@ -28,6 +28,11 @@ callback([
   {
     "text": "52 Tumblr",
     "href": "//danieldaugherty.github.io/52-tumblr"
+  } ,
+
+  {
+    "text": "GoodWords",
+    "href": "//danieldaugherty.github.io/goodwords"
   } 
 
 ])

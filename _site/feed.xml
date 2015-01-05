@@ -4,13 +4,62 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="//danieldaugherty.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="//danieldaugherty.github.io" />
-<updated>2014-09-22T13:51:18-04:00</updated>
+<updated>2015-01-05T15:35:23-05:00</updated>
 <id>//danieldaugherty.github.io/</id>
 <author>
   <name>Daniel Daugherty</name>
   <uri>//danieldaugherty.github.io/</uri>
   <email>daniel.shane.daugherty@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[GoodWords]]></title>
+  <link>//danieldaugherty.github.io/goodwords</link>
+  <id>//danieldaugherty.github.io/goodwords</id>
+  <updated>2015-01-15 08:02:10 -0500T00:00:00-00:00</updated>
+  <published>2015-01-15T08:02:10-05:00</published>
+  
+  <author>
+    <name>Daniel Daugherty</name>
+    <uri>//danieldaugherty.github.io</uri>
+    <email>daniel.shane.daugherty@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;a href=&quot;http://goodwords.herokuapp.com&quot;&gt;&lt;img class=&quot;post-image&quot; src=&quot;/images/GoodWords.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GoodWords is a place for professionals to collect &amp;amp; display professional written references from colleagues, clients, etc. Users can sign up to create a profile where their basic info &amp;amp; references will be shown. This profile is then publically accessible, so that colleagues can leave references, and recruiters/prospective employers can view it.&lt;/p&gt;
+
+&lt;p&gt;GoodWords is a single-page Angular application, using ngRoute. It is styled by Bootstrap, Font Awesome, and plain CSS. All page data is loaded by AJAX.&lt;/p&gt;
+
+&lt;p&gt;GoodWords’s back end is inspired by Service-Oriented Architecture, which prescribes simplistic back end controllers, with services that do all the heavy lifting. All back end controllers return JSON data.&lt;/p&gt;
+
+&lt;p&gt;Techs used:
+- Normalize.css
+- Font Awesome
+- Bootstrap
+- HTML5/CSS3
+- jQuery
+- AngularJS
+- ngRoute
+- ngSanitize
+- AJAX
+- Parsley.js
+- Flow.js
+- Alertify.js&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Node.js/ExpressJS&lt;/li&gt;
+  &lt;li&gt;bcrypt-node&lt;/li&gt;
+  &lt;li&gt;PassportJS&lt;/li&gt;
+  &lt;li&gt;Q&lt;/li&gt;
+  &lt;li&gt;moment&lt;/li&gt;
+  &lt;li&gt;request&lt;/li&gt;
+  &lt;li&gt;CORS&lt;/li&gt;
+  &lt;li&gt;MongoDB/Mongoose&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;//danieldaugherty.github.io/goodwords&quot;&gt;GoodWords&lt;/a&gt; was originally published by Daniel Daugherty at &lt;a href=&quot;//danieldaugherty.github.io&quot;&gt;Daniel Daugherty&lt;/a&gt; on January 15, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
