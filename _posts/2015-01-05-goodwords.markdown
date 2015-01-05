@@ -17,7 +17,7 @@ GoodWords is a single-page Angular application, using ngRoute. It is styled by B
 
 GoodWords's back end is inspired by Service-Oriented Architecture, which prescribes simplistic back end controllers, with services that do all the heavy lifting. All back end controllers return JSON data.
 
-Techs used:
+Front end techs used:
 - Normalize.css
 - Font Awesome
 - Bootstrap
@@ -31,6 +31,7 @@ Techs used:
 - Flow.js
 - Alertify.js
 
+Back end techs used:
 - Node.js/ExpressJS
 - bcrypt-node
 - PassportJS
